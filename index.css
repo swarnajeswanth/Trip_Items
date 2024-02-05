@@ -23,8 +23,23 @@ body {
   font-size: 60px;
   align-items: flex-end;
   justify-content: center;
-  background-color: rgb(241, 151, 32);
+  background-color: rgb(178, 151, 117);
 }
+@media screen and (min-width: 370px) {
+  #logo_Container {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #form > p {
+    font-size: 12px;
+    width: 30%;
+  }
+  #form input[type="text"] {
+    width: 6rem;
+    padding: 0 0.5rem;
+  }
+}
+
 #logo_Container > * {
   margin: 1rem;
 }
@@ -41,8 +56,9 @@ body {
   background-color: rgb(223, 107, 27);
   justify-content: center;
 }
+
 #form > * {
-  margin: 1rem;
+  margin: 1rem 0.5rem;
 }
 #form select,
 #form input[type="text"] {
@@ -72,7 +88,7 @@ body {
 #trip_Container {
   display: inline-block;
   background-color: rgb(76, 52, 35);
-  height: 70%;
+  height: cal(100% - 225px);
   width: 100%;
 }
 #items_Container {
