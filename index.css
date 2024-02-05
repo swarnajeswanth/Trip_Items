@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  width: inherit;
+  overflow: hidden;
+  display: flex;
+}
+#Container {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* LOGO Component Styles */
+
+#logo_Container {
+  display: flex;
+  font-size: 60px;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgb(241, 151, 32);
+}
+#logo_Container > * {
+  margin: 1rem;
+}
+
+#logo_Container > h3 {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Form Container Styles  */
+#form {
+  display: flex;
+  background-color: rgb(223, 107, 27);
+  justify-content: center;
+}
+#form > * {
+  margin: 1rem;
+}
+#form select,
+#form input[type="text"] {
+  background-color: rgb(253, 230, 170);
+  outline: none;
+  border: transparent;
+  border-radius: 14px;
+  width: 3rem;
+  height: 1.4rem;
+  margin: 0 0.3rem;
+}
+#form input[type="text"] {
+  width: 6rem;
+  padding: 0 0.5rem;
+}
+#form button {
+  width: 3rem;
+  padding: 0.2rem;
+  border-radius: 14px;
+  border: transparent;
+  height: 1.4rem;
+  background-color: rgb(103, 193, 163);
+  font-weight: bolder;
+}
+
+/* Items Container Styles  */
+#trip_Container {
+  display: inline-block;
+  background-color: rgb(76, 52, 35);
+  height: 70%;
+  width: 100%;
+}
+#items_Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 2rem;
+}
+.item {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  color: rgb(252, 234, 180);
+  margin: 1rem;
+}
+.item > * {
+  margin: 0 0.2rem;
+}
+.cross {
+  color: red;
+}
+
+/* Stats Component */
+#stats {
+  background-color: rgb(103, 193, 163);
+  height: 6.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
