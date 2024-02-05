@@ -23,9 +23,9 @@ body {
   font-size: 60px;
   align-items: flex-end;
   justify-content: center;
-  background-color: rgb(178, 151, 117);
+  background-color: rgb(241, 151, 32);
 }
-@media screen and (min-width: 370px) {
+@media screen and (max-width: 520px) {
   #logo_Container {
     font-size: 30px;
     font-weight: bolder;
@@ -33,10 +33,14 @@ body {
   #form > p {
     font-size: 12px;
     width: 30%;
+    font-weight: bolder;
   }
   #form input[type="text"] {
     width: 6rem;
     padding: 0 0.5rem;
+  }
+  #trip_Container {
+    height: 7%;
   }
 }
 
@@ -88,7 +92,7 @@ body {
 #trip_Container {
   display: inline-block;
   background-color: rgb(76, 52, 35);
-  height: cal(100% - 225px);
+  height: 70%;
   width: 100%;
 }
 #items_Container {
@@ -113,7 +117,7 @@ body {
 /* Stats Component */
 #stats {
   background-color: rgb(103, 193, 163);
-  height: 6.5%;
+  height: 7%;
   display: flex;
   align-items: center;
   justify-content: center;
